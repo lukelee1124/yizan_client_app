@@ -133,19 +133,21 @@ namespace 称重客户端New
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(363, 450);
+            this.label1.Location = new System.Drawing.Point(339, 440);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 12);
+            this.label1.Size = new System.Drawing.Size(101, 12);
             this.label1.TabIndex = 11;
-            this.label1.Text = " 版本:4.6.18";
+            this.label1.Text = " 版本:2016-12-20";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(371, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(202, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 21);
+            this.pictureBox1.Size = new System.Drawing.Size(240, 48);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
@@ -155,7 +157,7 @@ namespace 称重客户端New
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.CancelButton = this.cancle;
-            this.ClientSize = new System.Drawing.Size(494, 471);
+            this.ClientSize = new System.Drawing.Size(484, 461);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.setup);
@@ -170,7 +172,7 @@ namespace 称重客户端New
             this.MaximumSize = new System.Drawing.Size(500, 500);
             this.Name = "login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "OMS客户端登录";
+            this.Text = "北极星客户端登录";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.login_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

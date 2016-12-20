@@ -109,7 +109,6 @@ namespace 称重客户端New
             this.Name = "change";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "选择";
-            this.Load += new System.EventHandler(this.change_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

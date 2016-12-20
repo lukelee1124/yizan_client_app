@@ -130,10 +130,5 @@ namespace 称重客户端New
     }
 
     private delegate void myDelegate();
-
-    private void change_Load_1(object sender, EventArgs e)
-    {
-
-    }
   }
 }

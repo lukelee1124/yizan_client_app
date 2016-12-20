@@ -223,6 +223,22 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="images\beijixing.png" />
+    <Content Include="images\change\%24this.BackgroundImage.png" />
+    <Content Include="images\change\button1.BackgroundImage.png" />
+    <Content Include="images\change\button2.BackgroundImage.png" />
+    <Content Include="images\change\pictureBox1.Image.png" />
+    <Content Include="images\Form1\splitContainer1.BackgroundImage.png" />
+    <Content Include="images\login.BackgroundImage.png" />
+    <Content Include="images\login.cancle.png" />
+    <Content Include="images\login.ico" />
+    <Content Include="images\login.lg.Image.png" />
+    <Content Include="images\login.pictureBox1.Image.png" />
+    <Content Include="images\login.setup.Image.png" />
+    <Content Include="images\Setting\%24this.BackgroundImage.png" />
+    <Content Include="images\Setting\button1.Image.png" />
+    <Content Include="images\Setting\button2.Image.png" />
+    <Content Include="images\Setting\pictureBox1.Image.png" />
     <Content Include="lib\BarCode.dll" />
     <Content Include="lib\BarcodeLib.dll" />
     <Content Include="lib\Interop.SpeechLib.dll" />
@@ -264,9 +280,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

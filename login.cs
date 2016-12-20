@@ -481,5 +481,10 @@ namespace 称重客户端New
                 return utF8Encoding.GetString(numArray3);
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
