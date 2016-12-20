@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GBK"?>
+<function id="1">
+  <com PortName="com1" BaudRate="9600" ReceivedBytesThreshold="1" DataBits="8" Parity="0" />
+  <URL url="http://oms.polarisexpress.com/api/" />
+  <UserName>1dKi0anSKlPf1/1ZW7bkow==</UserName>
+  <UserPwd>ZW6ya7t50pAN9uXrQ9DQ5A==</UserPwd>
+  <RememberPwd>True</RememberPwd>
+</function>
