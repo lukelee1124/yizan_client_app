@@ -181,9 +181,10 @@ namespace 称重客户端New
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(383, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(302, 9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 21);
+            this.pictureBox1.Size = new System.Drawing.Size(200, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 94;
             this.pictureBox1.TabStop = false;
             // 
@@ -669,9 +670,9 @@ namespace 称重客户端New
             this.MaximumSize = new System.Drawing.Size(1920, 1080);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "OMS称重客户端";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.Text = "北极星称重客户端";
             this.Activated += new System.EventHandler(this.Form1_Activated);
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);

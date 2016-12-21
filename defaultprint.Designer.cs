@@ -2994,9 +2994,11 @@ namespace 称重客户端New
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(884, 6);
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(796, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 21);
+            this.pictureBox1.Size = new System.Drawing.Size(200, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 48;
             this.pictureBox1.TabStop = false;
             // 
@@ -3017,7 +3019,7 @@ namespace 称重客户端New
             this.MinimizeBox = false;
             this.Name = "defaultprint";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " ";
+            this.Text = " 北极星称重客户端";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.defaultprint_KeyPress);
             this.ouya.ResumeLayout(false);
             this.ouya.PerformLayout();
